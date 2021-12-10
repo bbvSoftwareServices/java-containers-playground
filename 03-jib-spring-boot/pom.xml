@@ -41,6 +41,19 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.1.4</version>
+                <configuration>
+                    <from>
+                        <image>eclipse-temurin:17.0.1_12-jdk@sha256:e736c4543a28fddd6dad577a3af011ce62ab2b8edb2e2b605cb8472ded9fb0b4</image>
+                    </from>
+                    <to>
+                        <image>jib-spring-boot</image>
+                    </to>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
